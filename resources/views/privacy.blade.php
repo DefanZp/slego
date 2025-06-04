@@ -6,11 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Test</title>
 
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
-
+    {{-- AlpineJs --}}
     <script defer src="https://cdn.jsdelivr.net/npm/@alpinejs/collapse@3.x.x/dist/cdn.min.js"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 
+    {{-- Aos --}}
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body>
 
@@ -19,9 +22,9 @@
     <section class="pt-[110px]">
         <div class="container mx-auto px-5 lg:px-0">
 
-            <h1 class="heading-2 mb-[32px]">Privacy policy</h1>
+            <h1 data-aos="fade" class="heading-2 mb-[32px]">Privacy policy</h1>
 
-            <div x-data="{tab : 'pendahuluan'}" class="flex flex-row gap-[64px]">
+            <div data-aos="fade" data-aos-delay="200" x-data="{tab : 'pendahuluan'}" class="flex flex-row gap-[64px]">
                 <div class="flex flex-col text-sm  text-[#412FA4] border-[#EAECF0] border-[1px] rounded-[16px] w-[20%] py-[12px] gap-[4px]">
                     <a href="#" @click.prevent="tab = 'pendahuluan'" class="py-[14px] px-[24px] border-l-[3px] border-transparent hover:border-[#444CE7] focus:border-[#444CE7]">Pendahuluan</a>
                     <a href="#" @click.prevent="tab = 'Informasi-yang-kami-kumpulkan'" class="py-[14px] px-[24px] border-l-[3px] border-transparent hover:border-[#444CE7] focus:border-[#444CE7]">Informasi yang kami kumpulkan</a>
@@ -30,9 +33,9 @@
 
             
                     <div class="w-[80%]">
-                        <div x-show="tab === 'pendahuluan'" class="flex flex-col ">
-                            <h1 class="text-global-bold mb-[24px]">Pendahuluan</h1>
-                            <h1 class="text-sm">
+                        <div data-aos="fade-right" data-aos-delay="400" x-show="tab === 'pendahuluan'" class="flex flex-col ">
+                            <h1 data-aos="fade-right" data-aos-delay="600" class="text-global-bold mb-[24px]">Pendahuluan</h1>
+                            <h1 data-aos="fade-right" data-aos-delay="800" class="text-sm">
                                 Terakhir diperbarui: [Tanggal Pembaruan] 
                                 <br><br>    
 
@@ -40,9 +43,9 @@
                         </div>
             
                         <div x-show="tab === 'Informasi-yang-kami-kumpulkan'" class="flex flex-col ">
-                            <h1 class="text-global-bold mb-[24px]">Informasi yang Kami Kumpulkan</h1>
-                            <h1 class="text-sm">Kami dapat mengumpulkan informasi berikut saat Anda menggunakan layanan kami: </h1>
-                            <ol type="disc" class="text-sm">
+                            <h1 data-aos="fade-right" data-aos-delay="400" class="text-global-bold mb-[24px]">Informasi yang Kami Kumpulkan</h1>
+                            <h1 data-aos="fade-right" data-aos-delay="600" class="text-sm">Kami dapat mengumpulkan informasi berikut saat Anda menggunakan layanan kami: </h1>
+                            <ol data-aos="fade-right" data-aos-delay="800" type="disc" class="text-sm">
                                 <li>Informasi Pribadi: Nama, alamat email, nomor telepon, dan informasi lain yang Anda berikan secara langsung.</li>
                                 <li>Informasi Transaksi: Data pembayaran dan detail pembelian jika Anda melakukan transaksi.</li>
                                 <li>Informasi Teknis: Alamat IP, jenis perangkat, sistem operasi, dan aktivitas penelusuran di situs kami.</li>
@@ -51,9 +54,9 @@
                         </div>   
             
                         <div x-show="tab === 'Cara Kami Menggunakan Informasi Anda'" class="flex flex-col ">
-                            <h1 class="text-global-bold mb-[24px]">Cara Kami Menggunakan Informasi Anda</h1>
-                            <h1 class="text-sm">Kami dapat mengumpulkan informasi berikut saat Anda menggunakan layanan kami: </h1>
-                            <ol type="disc" class="text-sm">
+                            <h1 data-aos="fade-right" data-aos-delay="400" class="text-global-bold mb-[24px]">Cara Kami Menggunakan Informasi Anda</h1>
+                            <h1 data-aos="fade-right" data-aos-delay="600" class="text-sm">Kami dapat mengumpulkan informasi berikut saat Anda menggunakan layanan kami: </h1>
+                            <ol data-aos="fade-right" data-aos-delay="800" type="disc" class="text-sm">
                                 <li>Informasi Pribadi: Nama, alamat email, nomor telepon, dan informasi lain yang Anda berikan secara langsung.</li>
                                 <li>Informasi Transaksi: Data pembayaran dan detail pembelian jika Anda melakukan transaksi.</li>
                                 <li>Informasi Teknis: Alamat IP, jenis perangkat, sistem operasi, dan aktivitas penelusuran di situs kami.</li>
@@ -67,6 +70,13 @@
         </div>
     </section>
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+        AOS.init({
+            once: true,
+            duration: 700,
+        });
+        </script>
 
 </body>
 </html>

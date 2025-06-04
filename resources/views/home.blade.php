@@ -60,13 +60,15 @@
 
         <section class="lg:bg-[#FFFFFF] bg-[#2C2C2C] lg:py-[100px] py-[200px] ">
             <div class="container flex flex-col justify-center  mx-auto px-5 lg:px-0  lg:h-[100vh]">
-                <div class="swiper w-full items-center justify-center  gap-y-[10px] gap-x-[24px]" >
+                
                 <div class="heading-2   flex flex-col text-[#101828] text-center lg:mb-[56px] mb-[36px]  ">
                     <h1 data-aos="fade-down" class="heading-2  lg:text-[#101828] text-[#FFFFFF] mb-[24px]">Namun, memilih sofa ternyata tidak semudah yang kami kira</h1>
                     <h1 data-aos="fade-down" data-aos-delay="200" class="text-global lg:text-[#475467] text-[#D0D5DD]"><span class="text-global-bold lg:text-[#475467] text-[#F2F4F7]">75% pembeli menyesal</span> membeli sofa karena <span class="text-global-bold lg:text-[#475467] text-[#F2F4F7]">ukurannya tidak pas</span> dengan ruangan setelah barang tiba. Kami hampir mengalami hal yang sama. Tapi kami sadar, yang kami butuhkan bukan sekadar sofa—kami butuh sesuatu yang bisa beradaptasi. </h1>
                 </div>
 
-                <div class="swiper-wrapper" data-aos="fade-down" data-aos-delay="600">
+                <div data-aos="fade" data-aos-delay="600" class="swiper w-full items-center justify-center  gap-y-[10px] gap-x-[24px]" >
+                
+                <div class="swiper-wrapper" >
     
                             <div class="swiper-slide">          
                                 <img src="/assets/static/image.png" class=" rounded-[16px] object-cover" >

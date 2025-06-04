@@ -77,14 +77,14 @@
         <section class="lg:pt-[200px] lg:pb-[100px] bg-[#F9FAFB]">
             <div class="container flex flex-col justify-center mx-auto px-5 lg:px-0 h-[100vh] ">
                 <div class="flex lg:flex-row flex-col mb-[68px]">
-                    <h1 class="heading-1 lg:w-[70%] w-full lg:text-start text-center lg:mb-[0px] mb-[56px] text-[#101828]">Slego adalah teman bertumbuh, bukan sekedar sofa<h1>
-                    <h1 class="text-global lg:w-[30%] w-full lg:text-right text-center text-[#475467]">Kami percaya bahwa hunian bukan sekadar tempat tinggal, tetapi bagian dari cerita hidup. Slego hadir untuk beradaptasi dengan setiap perubahan dalam hidupmu.<h1>    
+                    <h1 data-aos="fade-right" class="heading-1 lg:w-[70%] w-full lg:text-start text-center lg:mb-[0px] mb-[56px] text-[#101828]">Slego adalah teman bertumbuh, bukan sekedar sofa<h1>
+                    <h1 data-aos="fade-left" data-aos-delay="200" class="text-global lg:w-[30%] w-full lg:text-right text-center text-[#475467]">Kami percaya bahwa hunian bukan sekadar tempat tinggal, tetapi bagian dari cerita hidup. Slego hadir untuk beradaptasi dengan setiap perubahan dalam hidupmu.<h1>    
                 </div>
 
                 <div class="grid grid-cols-3 grid-rows-2 gap-[24px]">
-                    <img src="/assets/static/about/1.png" class="w-full h-full object-cover object-center max-h-[173px] rounded-[16px]"/>
-                    <img src="/assets/static/about/3.png" class="row-span-2 col-span-2 w-full h-full object-cover object-center max-h-[370px] rounded-[16px]"/>
-                    <img src="/assets/static/about/2.png" class="w-full h-full object-cover object-center max-h-[173px] rounded-[16px]"/>
+                    <img data-aos="fade-right" data-aos-delay="200" src="/assets/static/about/1.png" class="w-full h-full object-cover object-center max-h-[173px] rounded-[16px]"/>
+                    <img data-aos="fade-left" data-aos-delay="600" src="/assets/static/about/3.png" class="row-span-2 col-span-2 w-full h-full object-cover object-center max-h-[370px] rounded-[16px]"/>
+                    <img data-aos="fade-right" data-aos-delay="400" data-aos-offset="0" src="/assets/static/about/2.png" class="w-full h-full object-cover object-center max-h-[173px] rounded-[16px]"/>
                 </div>
             </div>
         </section>
@@ -93,14 +93,15 @@
             <div class="container mx-auto px-5 lg:px-0 ">
 
                 <div class="flex flex-col items-center gap-[24px] mb-[80px]">
-                    <h1 class="heading-2 text-[#101828]">Tumbuh bersama, berkembang bersama</h1>
-                    <h1 class="text-global text-center lg:w-[50%] w-full text-[#475467]">Kami percaya bahwa furnitur harus fleksibel, tidak kaku. Slego tumbuh bersama rumahmu, memenuhi kebutuhanmu tanpa batas. Maka dari itu kami membuat slego sedemikian rupa dengan fitur fitur berikut</h1>
+                    <h1 data-aos="fade-down" class="heading-2 text-[#101828]">Tumbuh bersama, berkembang bersama</h1>
+                    <h1 data-aos="fade-down" data-aos-delay="200" class="text-global text-center lg:w-[50%] w-full text-[#475467]">Kami percaya bahwa furnitur harus fleksibel, tidak kaku. Slego tumbuh bersama rumahmu, memenuhi kebutuhanmu tanpa batas. Maka dari itu kami membuat slego sedemikian rupa dengan fitur fitur berikut</h1>
                 </div>
 
                 <div class="grid grid-rows-3 lg:gap-[64px] gap-[120px]">
 
                     <div class="flex lg:flex-row flex-col items-center gap-[36px] lg:max-h-[326px] max-h-none">
-                        <video 
+                        <video
+                        data-aos="fade-right" 
                         src="/assets/static/about/4.mp4"
                         class="lg:w-[50%] w-full lg:h-[326px] h-[246px] object-cover rounded-[16px]"
                         autoplay
@@ -110,18 +111,19 @@
                         </video>
 
                         <div class="flex flex-col lg:w-[50%] w-full gap-[24px]">
-                            <h1 class="text-md text-[#101828]">Modular - Bebas Berubah & Berkembang</h1>
-                            <h1 class="text-global text-[#475467]">Tak perlu membeli sofa baru saat kebutuhanmu berubah. Tambah, hapus, atau susun ulang modul sesuai kebutuhan. Slego menyesuaikan jumlah dudukan, memberikan fleksibilitas untuk setiap ruang dan momen.</h1>
+                            <h1 data-aos="fade-left" class="text-md text-[#101828]">Modular - Bebas Berubah & Berkembang</h1>
+                            <h1 data-aos="fade-left" data-aos-delay="200" class="text-global text-[#475467]">Tak perlu membeli sofa baru saat kebutuhanmu berubah. Tambah, hapus, atau susun ulang modul sesuai kebutuhan. Slego menyesuaikan jumlah dudukan, memberikan fleksibilitas untuk setiap ruang dan momen.</h1>
                         </div>
                     </div>
 
                     <div class="flex lg:flex-row flex-col items-center gap-[36px] lg:max-h-[326px] max-h-none">
                         <div class="flex flex-col lg:w-[50%] w-full gap-[24px] lg:order-1 order-2">
-                            <h1 class="text-md text-[#101828]">Kustomisasi - Buat Sendiri Sesuai Gayamu</h1>
-                            <h1 class="text-global text-[#475467]">Tidak ada dua rumah yang sama, begitu juga dengan Slego. Pilih warna, bahan, dan kombinasi yang paling cocok untuk rumahmu. Gunakan set yang sudah tersedia atau ciptakan desain unik dengan elemen pilihanmu.</h1>
+                            <h1 data-aos="fade-right" class="text-md text-[#101828]">Kustomisasi - Buat Sendiri Sesuai Gayamu</h1>
+                            <h1 data-aos="fade-right" data-aos-delay="200" class="text-global text-[#475467]">Tidak ada dua rumah yang sama, begitu juga dengan Slego. Pilih warna, bahan, dan kombinasi yang paling cocok untuk rumahmu. Gunakan set yang sudah tersedia atau ciptakan desain unik dengan elemen pilihanmu.</h1>
                         </div>
 
                         <video 
+                        data-aos="fade-left"
                         src="/assets/static/about/5.mp4"
                         class="lg:w-[50%] w-full lg:h-[326px] h-[246px] object-cover rounded-[16px] lg:order-2 order-1"
                         autoplay
@@ -134,6 +136,7 @@
 
                     <div class="flex lg:flex-row flex-col items-center gap-[36px] lg:max-h-[326px] max-h-none">
                         <video 
+                        data-aos="fade-right"
                         src="/assets/static/about/6.mp4"
                         class="lg:w-[50%] w-full lg:h-[326px] h-[246px] object-cover rounded-[16px]"
                         autoplay
@@ -143,8 +146,8 @@
                         </video>
 
                         <div class="flex flex-col lg:w-[50%] w-full gap-[24px]">
-                            <h1 class="text-md text-[#101828]">Multifungsi - Lebih dari Sekadar Sofa</h1>
-                            <h1 class="text-global text-[#475467]">Slego lebih dari sekadar sofa. Gunakan sebagai tempat duduk, tempat tidur, atau ruang penyimpanan tersembunyi. Dengan desain modular yang fleksibel, satu furnitur dapat beradaptasi untuk berbagai kebutuhan ruang.</h1>
+                            <h1 data-aos="fade-left" class="text-md text-[#101828]">Multifungsi - Lebih dari Sekadar Sofa</h1>
+                            <h1  data-aos="fade-left" data-aos-delay="200" class="text-global text-[#475467]">Slego lebih dari sekadar sofa. Gunakan sebagai tempat duduk, tempat tidur, atau ruang penyimpanan tersembunyi. Dengan desain modular yang fleksibel, satu furnitur dapat beradaptasi untuk berbagai kebutuhan ruang.</h1>
                         </div>
                     </div>
                     
@@ -166,8 +169,8 @@
                 <div class="absolute z-2 bg-linear-to-b from-transparent to-[#00000029]  top-0 left-0 w-full h-full"></div>
 
                 <div class="relative container mx-auto  z-3 flex flex-col lg:flex-row items-center ">
-                    <h1 class="heading-1 text-[#FFFFFF] text-center lg:text-left lg:w-[50%] w-full lg:mb-0 mb-[24px]">Dibuat dengan Kualitas & Tanggung Jawab</h1>
-                    <h1 class="text-sm text-[#D0D5DD] lg:text-right text-center lg:w-[50%] w-full">
+                    <h1 data-aos="fade-right" class="heading-1 text-[#FFFFFF] text-center lg:text-left lg:w-[50%] w-full lg:mb-0 mb-[24px]">Dibuat dengan Kualitas & Tanggung Jawab</h1>
+                    <h1 data-aos="fade-left" data-aos-delay="200" class="text-sm text-[#D0D5DD] lg:text-right text-center lg:w-[50%] w-full">
                         Kami tidak hanya peduli dengan desain, tetapi juga dengan ketahanan dan keberlanjutan.Slego dibuat dengan material premium yang ramah lingkungan dan tahan lama </h1>    
                 </div>
             </div>
@@ -177,11 +180,11 @@
             <div class="container flex flex-col justify-center  mx-auto px-5 lg:px-0  h-[100vh]">
                 <div class="grid grid-cols-1 grid-rows-3 lg:grid-cols-2 lg:grid-rows-1 items-center justify-center  gap-y-[10px] gap-x-[24px]">
                 <div class="heading-2  lg:col-span-2 flex flex-col text-[#101828] text-center lg:mb-[56px]  ">
-                    <h1 class="heading-2  lg:text-[#101828] text-[#FFFFFF] mb-[24px]">Kami peduli masa depan</h1>
-                    <h1 class="text-global lg:text-[#475467] text-[#D0D5DD]">Setiap tahun, jutaan ton furnitur berakhir di tempat pembuangan sampah. Kami percaya bahwa desain modular adalah kunci untuk mengurangi limbah dan menciptakan solusi jangka panjang </h1>
+                    <h1 data-aos="fade-down" class="heading-2  lg:text-[#101828] text-[#FFFFFF] mb-[24px]">Kami peduli masa depan</h1>
+                    <h1 data-aos="fade-down" data-aos-delay="200" class="text-global lg:text-[#475467] text-[#D0D5DD]">Setiap tahun, jutaan ton furnitur berakhir di tempat pembuangan sampah. Kami percaya bahwa desain modular adalah kunci untuk mengurangi limbah dan menciptakan solusi jangka panjang </h1>
                 </div>
-                <img src="/assets/static/about/8.jpg" class="w-full h-full object-cover object-center rounded-[16px] max-h-[370px]" >
-                <img src="/assets/static/about/9.png" class="w-full h-full object-cover object-center rounded-[16px] max-h-[370px]" >
+                <img data-aos="fade-right" src="/assets/static/about/8.jpg" class="w-full h-full object-cover object-center rounded-[16px] max-h-[370px]" >
+                <img data-aos="fade-left" data-aos-delay="200" src="/assets/static/about/9.png" class="w-full h-full object-cover object-center rounded-[16px] max-h-[370px]" >
                 </div>
             </div>
         </section>
@@ -191,14 +194,14 @@
             <div class="container flex flex-col mx-auto px-5 "> 
                 <div id="rating-slider" class="splide">
                 <div class="flex flex-row justify-between mb-[80px] items-center">
-                    <h1 class="heading-1 text-[#101828]">Apa kata mereka tentang slego?</h1>
+                    <h1 data-aos="fade-right" class="heading-1 text-[#101828]">Apa kata mereka tentang slego?</h1>
 
                     <div class="splide__arrows container-arrows hidden lg:flex flex-row items-center gap-[8px]">
                     
-                        <button type="button" class="splide__arrow--prev prev-arrow p-[12px] rounded-full bg-[#EAECF0] border border-[#98A2B3] cursor-pointer ">
+                        <button data-aos="fade-right" data-aos-delay="200" type="button" class="splide__arrow--prev prev-arrow p-[12px] rounded-full bg-[#EAECF0] border border-[#98A2B3] cursor-pointer ">
                              <img src="assets/static/svg/about/Prev.png" alt="Previous Testimonial"/>
                         </button>
-                         <button type="button" class="splide__arrow--next next-arrow p-[12px] rounded-full bg-[#EAECF0] border border-[#98A2B3] cursor-pointer ">
+                         <button data-aos="fade-left" data-aos-delay="400" type="button" class="splide__arrow--next next-arrow p-[12px] rounded-full bg-[#EAECF0] border border-[#98A2B3] cursor-pointer ">
                             <img src="assets/static/svg/about/Next.png" alt="Next Testimonial"/>
                         </button>
                         
@@ -207,7 +210,7 @@
                 </div>
 
         
-                <div  >
+                <div data-aos="fade" data-aos-delay="800">
                   
                     <div class="splide__track">
                        
@@ -295,14 +298,14 @@
             <div class="container flex flex-col justify-center mx-auto px-5 lg:px-0 lg:h-[113px] ">
                 <div class="flex lg:flex-row flex-col justify-between items-center">
                     <div class="flex flex-col gap-[16px] lg:mb-0 mb-[32px] ">
-                        <h1 class="heading-2 text-[#101828]">Bergabung dengan slego family</h1>
-                        <h1 class="text-global w-[85%] text-[#475467]">Dapatkan inspirasi, tips dekorasi, dan promo eksklusif langsung ke inbox-mu.</h1>
+                        <h1 data-aos="fade-right" class="heading-2 text-[#101828]">Bergabung dengan slego family</h1>
+                        <h1 data-aos="fade-right" data-aos-delay = "200" class="text-global w-[85%] text-[#475467]">Dapatkan inspirasi, tips dekorasi, dan promo eksklusif langsung ke inbox-mu.</h1>
                     </div>
 
                     <div class="flex flex-col gap-[8px] w-[359px]">
-                        <input type="email" placeholder="Email" class="py-[16px] px-[24px] bg-[#EAECF0] rounded-full text-sm text-[#101828]"></input>
+                        <input data-aos="fade-left" data-aos-delay = "400" type="email" placeholder="Email" class="py-[16px] px-[24px] bg-[#EAECF0] rounded-full text-sm text-[#101828]"></input>
 
-                        <button class="py-[16px] px-[24px] bg-[#412FA4] rounded-full cursor-pointer flex flex-row justify-start items-center gap-[4px]">
+                        <button data-aos="fade-left" data-aos-delay = "600" class="py-[16px] px-[24px] bg-[#412FA4] rounded-full cursor-pointer flex flex-row justify-start items-center gap-[4px]">
                         <h1 class="text-sm text-[#FFFFFF]">Gabung Sekarang</h1>
                         <img src="/assets/static/svg/about/NextWhite.png" />    
                         </button>
@@ -316,9 +319,9 @@
       
 
             <div class="container relative flex flex-col justify-start content-center z-3 mx-auto px-5  h-[100vh] ">
-                <h1 class="heading-1 text-[#FFFFFF] mb-[24px] text-center">Siap Menemukan Slego untuk Rumahmu?</h1>
-                <h1 class="text-sm text-[#EAECF0] mb-[24px] text-center">Sofa yang tumbuh bersama Anda. – ubah, atur, dan sesuaikan dengan mudah!</h1>
-                <button class="flex flex-row items-center gap-[16px] bg-[#FFFFFF4D] text-[#F5F5F5] self-center px-[24px] py-[14px] rounded-full cursor-pointer">
+                <h1 data-aos="fade-down" class="heading-1 text-[#FFFFFF] mb-[24px] text-center">Siap Menemukan Slego untuk Rumahmu?</h1>
+                <h1 data-aos="fade-down" data-aos-delay="200" class="text-sm text-[#EAECF0] mb-[24px] text-center">Sofa yang tumbuh bersama Anda. – ubah, atur, dan sesuaikan dengan mudah!</h1>
+                <button data-aos="fade-up-right" data-aos-delay="400" class="flex flex-row items-center gap-[16px] bg-[#FFFFFF4D] text-[#F5F5F5] self-center px-[24px] py-[14px] rounded-full cursor-pointer">
                    <h1 class="text-sm-bold text-[#F5F5F5]">Lihat Katalog</h1>
                    <img src="assets\static\svg\Button_arrow.png" class=""></img>
                 </button>

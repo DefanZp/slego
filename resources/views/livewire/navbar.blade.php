@@ -17,8 +17,10 @@
         <div class="container hidden lg:flex flex-col justify-center  mx-auto px-5 lg:px-0 h-full    "> 
         <div id="nav-dekstop" class="  h-full w-full flex flex-row items-center justify-between">        
            <div class="flex flex-row items-center gap-[32px] ">
+            <a href="/">
             <img src="/assets/static/logo.png" alt="" class="w-[95.7px]">
             <ul class="flex flex-row gap-[24px] ">
+            </a>    
                 <li>
                    <a href="#" class="text-navbar">Produk kami</a>
                 </li>
@@ -60,7 +62,9 @@
 
          <div id="nav-mobile" x-data="{open: false}" class=" lg:hidden relative h-full w-full flex flex-col items-center justify-center z-50 bg-white">        
             <div class="flex flex-row items-center justify-between gap-[32px] h-full w-full mx-auto px-5 lg:px-0  ">
+             <a href="/">   
              <img src="/assets/static/logo.png" alt="" class="w-[95.7px]">
+             </a>
              <button @click="open = ! open">
                 <img x-show="! open" src="/assets/static/svg/menu.png"></img>  
                 <img x-show="open" src="/assets/static/svg/Silang.png" class="w-[25px]"></img>  
