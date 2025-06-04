@@ -1,0 +1,175 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+html, body {
+    overflow-x: hidden;
+}
+
+/* Font Navbar */
+
+.text-navbar{
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    font-style: normal;
+}
+
+.text-button-navbar{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 12px;
+    font-style: normal;
+}
+
+/* Global  */
+
+.heading-1{
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 500;
+    font-size: 54px;
+    line-height: 64.8px;
+    font-style: normal;
+}
+
+.heading-2{
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    font-style: normal;
+}
+
+.text-global {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    font-style: normal;
+}
+
+.text-global-bold {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    font-style: normal;
+}
+
+.text-sm {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18.5px;
+    font-style: normal;
+}
+
+.text-vsm {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24.8px;
+    font-style: normal;
+}
+
+.text-vsm-bold {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24.8px;
+    font-style: normal;
+}
+
+.text-sm-bold {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18.5px;
+    font-style: normal;
+}
+
+.text-md {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26.4px;
+    font-style: normal;
+}
+
+.text-md-bold {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26.4px;
+    font-style: normal;
+}
+
+
+/* Responsive Mobile & tablet */
+
+@media screen and (max-width: 768px) {
+
+    .heading-1{
+        font-family: "Nunito Sans", sans-serif;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 33.6px;
+        font-style: normal;
+    }
+
+    .text-global {
+        font-family: "Nunito Sans", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        font-style: normal;
+    }
+
+    .text-global-bold {
+        font-family: "Nunito Sans", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        font-style: normal;
+    }
+
+    .text-sm {
+        font-family: "Nunito Sans", sans-serif;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 13px;
+        font-style: normal;
+    }
+
+    .heading-2{
+        font-family: "Nunito Sans", sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21.6px;
+        font-style: normal;
+    }
+
+    .text-vsm {
+        font-family: "Nunito Sans", sans-serif;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 17.2px;
+        font-style: normal;
+    }
+
+}
