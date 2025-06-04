@@ -93,8 +93,8 @@
             <div class="container mx-auto px-5 lg:px-0 ">
 
                 <div class="flex flex-col items-center gap-[24px] mb-[80px]">
-                    <h1 data-aos="fade-down" class="heading-2 text-[#101828]">Tumbuh bersama, berkembang bersama</h1>
-                    <h1 data-aos="fade-down" data-aos-delay="200" class="text-global text-center lg:w-[50%] w-full text-[#475467]">Kami percaya bahwa furnitur harus fleksibel, tidak kaku. Slego tumbuh bersama rumahmu, memenuhi kebutuhanmu tanpa batas. Maka dari itu kami membuat slego sedemikian rupa dengan fitur fitur berikut</h1>
+                    <h1 data-aos="fade-up" class="heading-2 text-[#101828]">Tumbuh bersama, berkembang bersama</h1>
+                    <h1 data-aos="fade-up" data-aos-delay="200" class="text-global text-center lg:w-[50%] w-full text-[#475467]">Kami percaya bahwa furnitur harus fleksibel, tidak kaku. Slego tumbuh bersama rumahmu, memenuhi kebutuhanmu tanpa batas. Maka dari itu kami membuat slego sedemikian rupa dengan fitur fitur berikut</h1>
                 </div>
 
                 <div class="grid grid-rows-3 lg:gap-[64px] gap-[120px]">
@@ -180,8 +180,8 @@
             <div class="container flex flex-col justify-center  mx-auto px-5 lg:px-0  h-[100vh]">
                 <div class="grid grid-cols-1 grid-rows-3 lg:grid-cols-2 lg:grid-rows-1 items-center justify-center  gap-y-[10px] gap-x-[24px]">
                 <div class="heading-2  lg:col-span-2 flex flex-col text-[#101828] text-center lg:mb-[56px]  ">
-                    <h1 data-aos="fade-down" class="heading-2  lg:text-[#101828] text-[#FFFFFF] mb-[24px]">Kami peduli masa depan</h1>
-                    <h1 data-aos="fade-down" data-aos-delay="200" class="text-global lg:text-[#475467] text-[#D0D5DD]">Setiap tahun, jutaan ton furnitur berakhir di tempat pembuangan sampah. Kami percaya bahwa desain modular adalah kunci untuk mengurangi limbah dan menciptakan solusi jangka panjang </h1>
+                    <h1 data-aos="fade-up" class="heading-2  lg:text-[#101828] text-[#FFFFFF] mb-[24px]">Kami peduli masa depan</h1>
+                    <h1 data-aos="fade-up" data-aos-delay="200" class="text-global lg:text-[#475467] text-[#D0D5DD]">Setiap tahun, jutaan ton furnitur berakhir di tempat pembuangan sampah. Kami percaya bahwa desain modular adalah kunci untuk mengurangi limbah dan menciptakan solusi jangka panjang </h1>
                 </div>
                 <img data-aos="fade-right" src="/assets/static/about/8.jpg" class="w-full h-full object-cover object-center rounded-[16px] max-h-[370px]" >
                 <img data-aos="fade-left" data-aos-delay="200" src="/assets/static/about/9.png" class="w-full h-full object-cover object-center rounded-[16px] max-h-[370px]" >
@@ -319,8 +319,8 @@
       
 
             <div class="container relative flex flex-col justify-start content-center z-3 mx-auto px-5  h-[100vh] ">
-                <h1 data-aos="fade-down" class="heading-1 text-[#FFFFFF] mb-[24px] text-center">Siap Menemukan Slego untuk Rumahmu?</h1>
-                <h1 data-aos="fade-down" data-aos-delay="200" class="text-sm text-[#EAECF0] mb-[24px] text-center">Sofa yang tumbuh bersama Anda. – ubah, atur, dan sesuaikan dengan mudah!</h1>
+                <h1 data-aos="fade-up" class="heading-1 text-[#FFFFFF] mb-[24px] text-center">Siap Menemukan Slego untuk Rumahmu?</h1>
+                <h1 data-aos="fade-up" data-aos-delay="200" class="text-sm text-[#EAECF0] mb-[24px] text-center">Sofa yang tumbuh bersama Anda. – ubah, atur, dan sesuaikan dengan mudah!</h1>
                 <button data-aos="fade-up-right" data-aos-delay="400" class="flex flex-row items-center gap-[16px] bg-[#FFFFFF4D] text-[#F5F5F5] self-center px-[24px] py-[14px] rounded-full cursor-pointer">
                    <h1 class="text-sm-bold text-[#F5F5F5]">Lihat Katalog</h1>
                    <img src="assets\static\svg\Button_arrow.png" class=""></img>

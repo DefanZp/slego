@@ -33,9 +33,9 @@
 
             
                     <div class="w-[80%]">
-                        <div data-aos="fade-right" data-aos-delay="400" x-show="tab === 'pendahuluan'" class="flex flex-col ">
-                            <h1 data-aos="fade-right" data-aos-delay="600" class="text-global-bold mb-[24px]">Pendahuluan</h1>
-                            <h1 data-aos="fade-right" data-aos-delay="800" class="text-sm">
+                        <div data-aos="fade-up" data-aos-delay="400" x-show="tab === 'pendahuluan'" class="flex flex-col ">
+                            <h1 data-aos="fade-up" data-aos-delay="600" class="text-global-bold mb-[24px]">Pendahuluan</h1>
+                            <h1 data-aos="fade-up" data-aos-delay="800" class="text-sm">
                                 Terakhir diperbarui: [Tanggal Pembaruan] 
                                 <br><br>    
 
@@ -43,9 +43,9 @@
                         </div>
             
                         <div x-show="tab === 'Informasi-yang-kami-kumpulkan'" class="flex flex-col ">
-                            <h1 data-aos="fade-right" data-aos-delay="400" class="text-global-bold mb-[24px]">Informasi yang Kami Kumpulkan</h1>
-                            <h1 data-aos="fade-right" data-aos-delay="600" class="text-sm">Kami dapat mengumpulkan informasi berikut saat Anda menggunakan layanan kami: </h1>
-                            <ol data-aos="fade-right" data-aos-delay="800" type="disc" class="text-sm">
+                            <h1 data-aos="fade-up" data-aos-delay="400" class="text-global-bold mb-[24px]">Informasi yang Kami Kumpulkan</h1>
+                            <h1 data-aos="fade-up" data-aos-delay="600" class="text-sm">Kami dapat mengumpulkan informasi berikut saat Anda menggunakan layanan kami: </h1>
+                            <ol data-aos="fade-up" data-aos-delay="800" type="disc" class="text-sm">
                                 <li>Informasi Pribadi: Nama, alamat email, nomor telepon, dan informasi lain yang Anda berikan secara langsung.</li>
                                 <li>Informasi Transaksi: Data pembayaran dan detail pembelian jika Anda melakukan transaksi.</li>
                                 <li>Informasi Teknis: Alamat IP, jenis perangkat, sistem operasi, dan aktivitas penelusuran di situs kami.</li>
@@ -54,9 +54,9 @@
                         </div>   
             
                         <div x-show="tab === 'Cara Kami Menggunakan Informasi Anda'" class="flex flex-col ">
-                            <h1 data-aos="fade-right" data-aos-delay="400" class="text-global-bold mb-[24px]">Cara Kami Menggunakan Informasi Anda</h1>
-                            <h1 data-aos="fade-right" data-aos-delay="600" class="text-sm">Kami dapat mengumpulkan informasi berikut saat Anda menggunakan layanan kami: </h1>
-                            <ol data-aos="fade-right" data-aos-delay="800" type="disc" class="text-sm">
+                            <h1 data-aos="fade-up" data-aos-delay="400" class="text-global-bold mb-[24px]">Cara Kami Menggunakan Informasi Anda</h1>
+                            <h1 data-aos="fade-up" data-aos-delay="600" class="text-sm">Kami dapat mengumpulkan informasi berikut saat Anda menggunakan layanan kami: </h1>
+                            <ol data-aos="fade-up" data-aos-delay="800" type="disc" class="text-sm">
                                 <li>Informasi Pribadi: Nama, alamat email, nomor telepon, dan informasi lain yang Anda berikan secara langsung.</li>
                                 <li>Informasi Transaksi: Data pembayaran dan detail pembelian jika Anda melakukan transaksi.</li>
                                 <li>Informasi Teknis: Alamat IP, jenis perangkat, sistem operasi, dan aktivitas penelusuran di situs kami.</li>
